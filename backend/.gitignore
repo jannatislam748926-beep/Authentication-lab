@@ -1,0 +1,22 @@
+
+# Never commit real passwords, API keys, or certificates
+
+
+*.pem
+*.key
+*.cert
+config/production.json
+
+# ==========================================
+# 📦 Dependencies & Package Managers
+# ==========================================
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+node_modules/
+users.json
+.env
